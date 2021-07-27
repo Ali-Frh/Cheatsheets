@@ -21,6 +21,9 @@ Route::get('/articles/{id}',function($id){
     'article_id'=>$id
     ]);
 });
+
 //then on resources/views/article.blade.php
-print($article_id);
+<b> <?= $article_id; ?> </b>
+//or
+<b>{{ $article_id }}</b>
 ```
