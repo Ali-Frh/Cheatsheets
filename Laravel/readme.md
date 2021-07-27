@@ -1,14 +1,14 @@
 # Laravel
 
 ## Routes:
-- GET:
--- Simple:
+GET:
+- Simple:
 ```php
 Route::get('/articles',function(){
   return "Articles List" ;
 });
 ```
--- with Parameter:
+- with Parameter:
 ```php
 Route::get('/articles/{id}',function($id){
   return "Article #".$id;
