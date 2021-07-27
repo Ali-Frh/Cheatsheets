@@ -14,5 +14,13 @@ Route::get('/articles/{id}',function($id){
   return "Article #".$id;
 });
 ```
-
-  
+- Bind Param to View:
+```php
+Route::get('/articles/{id}',function($id){
+  return view("article",[
+    'article_id'=>$id
+    ]);
+});
+//then on resources/views/article.blade.php
+print($article_id);
+```
