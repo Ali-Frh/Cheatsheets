@@ -49,4 +49,26 @@ Route::get('/articles/{id}',function($id){
   <h4> This is the Content </h4>
 @endsection
 ```
+## Blade Commands:
+- @if - @endif
+
+- Sections:
+```php
+//in masterpage (layout.master)
+<title>@yield("title")</title>
+
+//for example in about file:
+@section("title","about us") //one linear
+
+@section("title")
+About Us
+@endsection
+
+//or even
+@section("title")
+About Us
+@show
+```
+If You Use third one, it can be Replicable Later.
+
 
