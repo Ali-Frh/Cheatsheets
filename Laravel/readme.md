@@ -68,7 +68,10 @@ About Us
 @section("title")
 About Us
 @show
-```
+
 If You Use third one, it can be Replicable Later.
+```
+
+- @include("penis") //Absolute Path Only
 
 
