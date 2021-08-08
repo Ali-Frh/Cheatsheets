@@ -33,5 +33,23 @@ Use Colors as text-color or bg-color:<br/>
 - danger => RED
 - info => Light Blue
 - light => Almost White
-- muted => Light Gray
+- muted => Light Gray #Just For Text (not bg)
 - white => White
+
+### Breakpoints
+xs < 576px <= sm < 768px <= md < 992px <= lg < 1200px <= xl <br/>
+for example (text-center)
+```html
+<h1 class="text-md-center"> خ </h1>
+```
+for dudes who their screens is md or larger, heading will be appeared in center
+
+### Floats and Positions:
+- float-[left/right] class<br/>
+makes object stick to the side
+- clearfix class <br/>
+fixes background issue of fixed object's parents
+- fixed-[top/bottom] <br/>
+always stay at top/bottom
+- sticky-[top/bottom] <br/>
+stick to top when you passed away it, but back to it position when scrolls back before its place.
