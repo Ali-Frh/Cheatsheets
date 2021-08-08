@@ -74,4 +74,6 @@ If You Use third one, it can be Replicable Later.
 
 - @include("penis") //Absolute Path Only
 
+## Database
+- DB::Table("sometable")->get();
 
