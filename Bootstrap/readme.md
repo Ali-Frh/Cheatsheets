@@ -6,7 +6,7 @@ REMs Measurement System<br/>
 ## Typography
 BS Classes such as:
 - h1-h6 class => heading tags
-- small class => html5 <small> Equivalent
+- small class => html5 ```<small>``` Equivalent
 - display-[1-4] class => Sexy thin Heading Text
 - lead class => Paragraph Equivalent
 ```html
