@@ -19,17 +19,19 @@ BS Classes such as:
 #### Transitions:
 - text-left | text-center | text-right
 Makes LTR,Center,RTL
-- text-uppercase | text-lowercase | text-capitalize
+- text-uppercase | text-lowercase | text-capitalize <br/>
 Makes UPPERCASE,lowercase and Capitalize
-- text-justify
 - font-weight-bold | font-italic | font-weight-normal | font-weight-light
+- text-justify
 
-#### Text Color
-- text-primary => High Blue
-- text-secondary => Gray
-- text-success => Green
-- text-danger => RED
-- text-info => Light Blue
-- text-light => Almost White
-- text-muted => Light Gray
-- text-white => White
+#### Text/BG Color
+Use Colors as text-color or bg-color:<br/>
+
+- primary => High Blue
+- secondary => Gray
+- success => Green
+- danger => RED
+- info => Light Blue
+- light => Almost White
+- muted => Light Gray
+- white => White
