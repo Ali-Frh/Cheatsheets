@@ -53,3 +53,34 @@ fixes background issue of fixed object's parents
 always stay at top/bottom
 - sticky-[top/bottom] <br/>
 stick to top when you passed away it, but back to it position when scrolls back before its place.
+
+### CSS Flex Box
+- css display: **flex**; means all child elements in a row
+- css display: **inline-flex**; means like previous one but container alloc just required space
+- css flex-direction:<br/>
+    **row** (default) means LTR <br/>
+    **row-reverse** means RTL <br/>
+    **column** means up to down <br/>
+    **column-reverse** means bottom to top <br/>
+- css flex-wrap: [wrap/nowrap] means item wrapping during low screen width
+- css flex-flow: [direction wrapstate], this property is a mix of flex-direction and wrap
+- css justify-content: <br/>
+        **flex-start** means main axis <br/>
+        **flex-end** means not main axis<br/>
+        **center** means place at center<br/>
+        **space-between** means fills all space <br/>
+        **space-arround** means like *space-between* but first and last item hasnt attached to the edge of screen<br/>
+        **space-evenly** means all spaces (between and arround) are equal  <br/>
+ - align-items:<br/>
+        **stretch** (Default) means it streched from flex-start to end <br/>
+        **flex-start** means elements align at start of cross axis <br/>
+        **flex-end** means elements align at end of cross axis <br/>
+        **center** means elements align at middle of cross axis <br/>
+        **baseline** means Texts of elements are Aligned from bottom in a hypothethical line <br/>
+ - align-content: Just Like align-items Properties.
+ - order: default is **0**, anything < 0 will be first and bigger than 0 is last one.
+ - align-self: override align of container by the element
+ - flex-grow: default is **1**, its growing speed when screen bigger, flex-wrap interfer it
+ - flex-shrink: opposite of flex-grow
+ - flex-basis: **as px**, if flex-direction is row, its width and if dir is column, its modify height of element
+ - flex: [flex-grow flex-shrink flex-basis] mix of three of them
